@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.touchtest.MainActivity">
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/main_recycle"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        app:layoutManager="LinearLayoutManager"/>
+    <!--<com.example.touchtest.Layout_1-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:background="#f00"-->
+        <!--android:layout_height="match_parent">-->
+        <!--<com.example.touchtest.Layout_2-->
+            <!--android:layout_width="400dp"-->
+            <!--android:background="#0f0"-->
+            <!--android:layout_height="400dp">-->
+            <!--<com.example.touchtest.Layout_3-->
+                <!--android:layout_width="200dp"-->
+                <!--android:background="#00f"-->
+                <!--android:layout_height="200dp"/>-->
+        <!--</com.example.touchtest.Layout_2>-->
+    <!--</com.example.touchtest.Layout_1>-->
+</RelativeLayout>
